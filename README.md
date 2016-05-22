@@ -1,4 +1,4 @@
-<h1 style="font-family: courier;" align="center">satshakit</h1>
+<h1 style="font-family: courier;" align="center">satshacopter 250X</h1>
 <p align="center">
 <img src="media/250X_0.jpg" width="70%">
 <div align="center"><i>An open source, low cost and fabbable quad X drone.</i></div>
@@ -28,6 +28,7 @@ Downloads
 -[satshakit flight controller internal traces png]()
 -[satshakit flight controller holes png]()
 -[satshakit flight controller cut png]()
+
 -[main frame and supports Rhino]()
 -[main frame and supports dxf]()
 -[upper frame and supports Rhino]()
