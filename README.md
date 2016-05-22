@@ -7,7 +7,7 @@
 satshacopter 250X
 --
 
-satshacopter 250X is a quadcopter built around the [satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller). It is designed to be as  simple and cheap as possible, and to be easily made inside any Fab Lab.
+satshacopter 250X is a quadcopter built around the **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**. It is designed to be as  simple and cheap as possible, and to be easily made inside any Fab Lab.
 
 250X specifications:
 
