@@ -29,7 +29,7 @@ Here is the Bill of Material table:
 
 |name|description|vendor|link|price|notes|
 |:---:| :---:|:---:|:---:|:---:|:---:|
-|2.4Ghz4Ch TxRx V2|4ch mode 2 remote control and receiver|Hobby King EU|http://www.hobbyking.com/hobbyking/store/__66499__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_2_EU_Warehouse_.html|€23.14|-|
+|2.4Ghz4Ch TxRx V2|4ch mode 2 remote control and receiver|Hobby King EU|[link](http://www.hobbyking.com/hobbyking/store/__66499__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_2_EU_Warehouse_.html)|€23.14|-|
 |||||||
 |||||||
 |||||||
