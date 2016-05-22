@@ -18,11 +18,23 @@ satshacopter 250X is a quadcopter built around the [satshakit flight controller]
 - 4 x 15A ESCs
 - MultiWii compatible
 - 4 channel Hobby King remote and receiver
+- 1000mah 3S LiPo battery 
 - costs under 100€
 
 Here is the **MultiWii pin mapping** of the satshakit flight controller board:
 
 <img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+
+Here is the Bill of Material table:
+
+|name|description|vendor|link|price|notes|
+|:---:| :---:|:---:|:---:|:---:|:---:|
+|2.4Ghz4Ch TxRx V2|4ch mode 2 remote control and receiver|Hobby King EU|http://www.hobbyking.com/hobbyking/store/__66499__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_2_EU_Warehouse_.html|€23.14|-|
+|||||||
+|||||||
+|||||||
+
+
 
 The main frame and the supports are made of 8mm plywood cut with the laser cutter. The upper frame is made of 4mm plywood and cut in the same way. The main frame and the upper frame are joint using 8 x M3 12mm screws.
 
