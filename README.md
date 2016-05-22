@@ -35,7 +35,7 @@ Here is the Bill of Material table:
 |IMU 6DOF|MPU6050 Gyro + Acc IMU|Ebay|[link](http://www.ebay.de/itm/MPU-6050-GY-521-3-Achsen-Gyroskop-Accelerometer-Kreisel-Board-Sensor-Arduino-21-/121887579651)|€5.39|-|
 |LiPo Charger and Balancer|800mah 3s LiPo charger|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=77525)|€6.99|-|
 |Fligh Controller|satshakit flight controller|various|[link](https://github.com/satshakit/satshakit-flight-controller)|€4.00-€8.00|depending on the quantity|
-|Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|(https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|€4.31|-|
+|Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|[link](https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|€4.31|-|
 
 The main frame and the supports are made of 8mm plywood cut with the laser cutter. The upper frame is made of 4mm plywood and cut in the same way. The main frame and the upper frame are joint using 8 x M3 12mm screws.
 
