@@ -7,14 +7,14 @@
 satshacopter 250X
 --
 
-satshacopter 250X is a quadcopter built around the **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**. It is designed to be as  simple and cheap as possible, and to be easily made inside any Fab Lab.
+satshacopter 250X is a quadcopter built around the **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**. It is designed to be as  simple and cheap as much as possible, and to be easily made inside any Fab Lab.
 
 250X specifications:
 
 - 250mm wooden frame and supports
 - open source flight controller
 - MPU6050 IMU located exactly at the center
-- 4 x 2200Kv brushless motors
+- 4 x 1900kv brushless motors
 - 4 x 15A ESCs
 - MultiWii compatible
 - 4 channel Hobby King remote and receiver
@@ -37,7 +37,77 @@ Here is the Bill of Material table:
 |Fligh Controller|satshakit flight controller|various|[link](https://github.com/satshakit/satshakit-flight-controller)|€4.00-€8.00|depending on the quantity|
 |Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|[link](https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|€4.31|-|
 
-The main frame and the supports are made of 8mm plywood cut with the laser cutter. The upper frame is made of 4mm plywood and cut in the same way. The main frame and the upper frame are joint using 8 x M3 12mm screws.
+Making instructions
+--
+
+**making frame and foots**
+
+The main frame and the supports are made of 8mm plywood. You can easily cut these using a laser cutter:
+
+<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+
+The upper frame is from 4mm, and you can make it using again the laser cutter:
+
+<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+
+Foots are pretty simple 3D printed objects:
+
+<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+
+**frame assembly**
+
+First, detect wich side of the main frame must be up, you can follow this picture:
+
+<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+
+Then you put the upper frame on the main frame to obtain the location for the IMU as following:
+
+
+and fix it using 8 x 12mm M3 bolts:
+
+Now you can use 2 x M3 10mm bolt to fix the motors on the arms:
+
+And pass the wires into the predisposed holes:
+
+Finally put a little bit of glue on the 3D printed foots, and glue them fixing the in this way:
+
+**making the electronics**
+
+You can easily make the **satshakit flight controller** using a little cnc machine. You can have look at the official repository here: **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**
+
+Once you have the board ready you can program it using Arduino as ISP (follow the instructions in the flight controller repo).
+
+[Download the latest version of MultiWii](https://code.google.com/archive/p/multiwii/), open it with **Arduino IDE** and configure it as follows in the **config.h file**:
+
+- decomment **#define QUADX** to enable quad X configuration
+- set min throttle to 1040 **#define MINTHROTTLE 1040** to match with these ESCs
+- decomment **#define GY_521** to enable the IMU
+
+Now you have to upload the MultiWii, you can connect in the following way an Arduino with preloaded the Arduino as ISP sketch:
+
+And then do **Sketch->Uploading Using a Programmer**
+
+**mounting and connecting the electronics**
+
+Fix all the ESCs using 
+
+**configure MultiWii and do preliminar tests**
+
+**do a test flight**
+
+Mount the propellers in the right position. Remember that looking at the following picture from MultiWii:
+
+
+
+the propellers must push down the air always.
+
+Place the drone in area without any risk of hitting someone, and stay away more than 5 meters from the drone.
+
+Arm the drone by putting the left stick in bottom left position for more than 5 seconds:
+
+Try to spin a little the propellers.
+
+**Have good flights**
 
 Downloads
 --
