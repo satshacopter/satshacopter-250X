@@ -20,24 +20,28 @@ satshacopter 250X is a quadcopter built around the [satshakit flight controller]
 - 4 channel Hobby King remote and receiver
 - costs under 100€
 
+Here is the **MultiWii pin mapping** of the satshakit flight controller board:
+
+<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+
+The main frame and the supports are made of 8mm plywood cut with the laser cutter. The upper frame is made of 4mm plywood and cut in the same way. The main frame and the upper frame are joint using 8 x M3 12mm screws.
+
 Downloads
 --
 
-- [satshakit flight controller eagle board]()
-- [satshakit flight controller eagle sch]()
-- [satshakit flight controller internal traces png]()
-- [satshakit flight controller holes png]()
-- [satshakit flight controller cut png]()
-
-- [main frame and supports Rhino]()
-- [main frame and supports dxf]()
-- [upper frame and supports Rhino]()
-- [upper frame and supports dxf]()
-- [foot stl]()
-- [foot Rhino]()
-- [satshacopter 250X BOM Excel]()
-- [satshacopter 250X BOM Open document]()
-
+- [satshakit flight controller eagle board](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/eagle_projects/satshakit_flight_controller/satshakit_fc_power.brd)
+- [satshakit flight controller eagle sch](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/eagle_projects/satshakit_flight_controller/satshakit_fc_power.sch)
+- [satshakit flight controller internal traces png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_internal.png)
+- [satshakit flight controller holes png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_holes.png)
+- [satshakit flight controller cut png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_cut.png)
+- [main frame and supports Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/main_frame_and_supports_8mm.3dm)
+- [main frame and supports dxf](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/main_frame_and_supports_8mm.dxf)
+- [upper frame and supports Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/upper_frame_4mm.3dm)
+- [upper frame and supports dxf](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/design_files/upper_frame_4mm.dxf)
+- [foot Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.3dm)
+- [foot stl](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.stl)
+- [satshacopter 250X BOM Excel](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250X_DOM.xlsx)
+- [satshacopter 250X BOM Open document](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250_BOM.ods)
 
 Media
 --
