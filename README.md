@@ -40,9 +40,11 @@ Here is the Bill of Material table:
 Making instructions
 --
 
-**making frame and foots**
+##making frame and foots
 
 The main frame and the supports are made of 8mm plywood. You can easily cut these using a laser cutter:
+
+
 
 <img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
 
@@ -54,7 +56,7 @@ Foots are pretty simple 3D printed objects:
 
 <img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
 
-**frame assembly**
+##frame assembly
 
 First, detect wich side of the main frame must be up, you can follow this picture:
 
@@ -71,7 +73,7 @@ And pass the wires into the predisposed holes:
 
 Finally put a little bit of glue on the 3D printed foots, and glue them fixing the in this way:
 
-**making the electronics**
+##making the electronics
 
 You can easily make the **satshakit flight controller** using a little cnc machine. You can have look at the official repository here: **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**
 
@@ -87,13 +89,13 @@ Now you have to upload the MultiWii, you can connect in the following way an Ard
 
 And then do **Sketch->Uploading Using a Programmer**
 
-**mounting and connecting the electronics**
+##mounting and connecting the electronics
 
 Fix all the ESCs using 
 
-**configure MultiWii and do preliminar tests**
+##configure MultiWii and do preliminar tests**
 
-**do a test flight**
+##do a test flight**
 
 Mount the propellers in the right position. Remember that looking at the following picture from MultiWii:
 
