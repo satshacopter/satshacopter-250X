@@ -21,11 +21,11 @@ satshacopter 250X is a quadcopter built around the **[satshakit flight controlle
 - 1000mah 3S LiPo battery 
 - costs under 100€
 
-Here is the **MultiWii pin mapping** of the satshakit flight controller board:
+Here you can look about the **MultiWii pin mapping** of the satshakit flight controller board:
 
 <img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
 
-Here is the Bill of Material table:
+And here you can che the required components in the **Bill of Material** table:
 
 |name|description|vendor|link|price|notes|
 |:---:| :---:|:---:|:---:|:---:|:---:|
@@ -37,41 +37,57 @@ Here is the Bill of Material table:
 |Fligh Controller|satshakit flight controller|various|[link](https://github.com/satshakit/satshakit-flight-controller)|€4.00-€8.00|depending on the quantity|
 |Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|[link](https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|€4.31|-|
 
-Making instructions
---
+##making step-by-step instructions
 
-##making frame and foots
+Here you can about how to **build your own satshacopter 250X**.
+
+###making frame and foots
 
 The main frame and the supports are made of 8mm plywood. You can easily cut these using a laser cutter:
 
+<img src="media/main_frame_and_supports.jpg" width="70%">
 
+The upper frame is from 4mm, also for this pretty easy cut you can use the laser cutter:
 
-<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+<img src="media/upper_frame.jpg" width="70%">
 
-The upper frame is from 4mm, and you can make it using again the laser cutter:
+Foots are pretty simple 3D printed objects, is recommended to use PLA an 25% of fill:
 
-<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+<img src="media/foot.jpg" width="70%">
 
-Foots are pretty simple 3D printed objects:
+###frame assembly
 
-<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
-
-##frame assembly
-
-First, detect wich side of the main frame must be up, you can follow this picture:
+First, detect wich side of the main frame must be up, you can do this by looking at this picture:
 
 <img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
 
 Then you put the upper frame on the main frame to obtain the location for the IMU as following:
 
+<img src="media/frame_Assembly_1.jpg" width="70%">
 
-and fix it using 8 x 12mm M3 bolts:
+and fix it using 8 x 12mm M3 bolts. It does not require to use nuts:
 
-Now you can use 2 x M3 10mm bolt to fix the motors on the arms:
+<img src="media/frame_Assembly_2.jpg" width="70%">
 
-And pass the wires into the predisposed holes:
+<img src="media/frame_Assembly_3.jpg" width="70%">
+
+Now is the turn of the motors. First be sure to pass the motor cable into the arm hole:
+
+<img src="media/motor_assembly_1.jpg" width="70%">
+
+You can use 2 x M3 10mm bolt each, to fix them on the arms:
+
+<img src="media/motor_assembly_2.jpg" width="70%">
+
+Plase adjust the position of the motor at the center before tighten the bolts:
+
+<img src="media/motor_assembly_3.jpg" width="70%">
 
 Finally put a little bit of glue on the 3D printed foots, and glue them fixing the in this way:
+
+<img src="media/foot_assembly_1.jpg" width="70%">
+
+<img src="media/foot_assembly_2.jpg" width="70%">
 
 ##making the electronics
 
@@ -85,9 +101,16 @@ Once you have the board ready you can program it using Arduino as ISP (follow th
 - set min throttle to 1040 **#define MINTHROTTLE 1040** to match with these ESCs
 - decomment **#define GY_521** to enable the IMU
 
-Now you have to upload the MultiWii, you can connect in the following way an Arduino with preloaded the Arduino as ISP sketch:
+Now you have to **upload the MultiWii**, you can connect in the following way an Arduino with preloaded the Arduino as ISP sketch:
 
-And then do **Sketch->Uploading Using a Programmer**
+<img src="media/satshakit_fc_programming.png" width="70%">
+
+And then do **Sketch->Uploading Using a Programmer**.
+Here is a video about loading the MultiWii:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZrNh0s9pX4o
+" target="_blank"><img src="http://img.youtube.com/vi/ZrNh0s9pX4o/0.jpg" 
+alt="http://img.youtube.com/vi/ZrNh0s9pX4o/0.jpg" width="240" height="180" border="10" /></a>
 
 ##mounting and connecting the electronics
 
@@ -95,7 +118,7 @@ Fix all the ESCs using
 
 ##configure MultiWii and do preliminar tests**
 
-##do a test flight**
+##do a test flight
 
 Mount the propellers in the right position. Remember that looking at the following picture from MultiWii:
 
@@ -109,7 +132,7 @@ Arm the drone by putting the left stick in bottom left position for more than 5 
 
 Try to spin a little the propellers.
 
-**Have good flights**
+**Have good flights!**
 
 Downloads
 --
