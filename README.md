@@ -118,7 +118,7 @@ alt="http://img.youtube.com/vi/ZrNh0s9pX4o/0.jpg" width="240" height="180" borde
 
 Fix all the ESCs to the arms using plastic strips:
 
-<img src="media/fix_escs.jpeg" width="70%">
+<img src="media/fix_escs.jpg" width="70%">
 
 ##configure MultiWii and do preliminar tests**
 
@@ -128,7 +128,7 @@ First connect the FTDI cable as following:
 
 Mount the propellers in the right position. Remember that looking at the following picture from MultiWii:
 
-<img src="media/quadx_328.jpeg" width="70%">
+<img src="media/QUADX_328.jpg" width="70%">
 
 the propellers must push down the air always.
 
