@@ -53,13 +53,13 @@ The upper frame is from 4mm, also for this pretty easy cut you can use the laser
 
 Foots are pretty simple 3D printed objects, is recommended to use PLA an 25% of fill:
 
-<img src="media/foots.jpg" width="70%">
+<img src="media/foot.jpg" width="70%">
 
 ###frame assembly
 
 First, detect wich side of the main frame must be up, you can do this by looking at this picture:
 
-<img src="media/satshakit_fc_power_pin_mapping.PNG" width="70%">
+<img src="media/upside.jpg" width="70%">
 
 Then you put the upper frame on the main frame to obtain the location for the IMU as following:
 
@@ -93,6 +93,8 @@ Finally put a little bit of glue on the 3D printed foots, and glue them fixing t
 
 You can easily make the **satshakit flight controller** using a little cnc machine. You can have look at the official repository here: **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**
 
+<img src="media/satshakit_fc.jpeg" width="70%">
+
 Once you have the board ready you can program it using Arduino as ISP (follow the instructions in the flight controller repo).
 
 [Download the latest version of MultiWii](https://code.google.com/archive/p/multiwii/), open it with **Arduino IDE** and configure it as follows in the **config.h file**:
@@ -114,15 +116,19 @@ alt="http://img.youtube.com/vi/ZrNh0s9pX4o/0.jpg" width="240" height="180" borde
 
 ##mounting and connecting the electronics
 
-Fix all the ESCs using 
+Fix all the ESCs to the arms using plastic strips:
+
+<img src="media/fix_escs.jpeg" width="70%">
 
 ##configure MultiWii and do preliminar tests**
+
+First connect the FTDI cable as following:
 
 ##do a test flight
 
 Mount the propellers in the right position. Remember that looking at the following picture from MultiWii:
 
-
+<img src="media/quadx_328.jpeg" width="70%">
 
 the propellers must push down the air always.
 
