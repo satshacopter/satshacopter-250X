@@ -53,7 +53,7 @@ The upper frame is from 4mm, also for this pretty easy cut you can use the laser
 
 Foots are pretty simple 3D printed objects, is recommended to use PLA an 25% of fill:
 
-<img src="media/foot.jpg" width="70%">
+<img src="media/foots.jpg" width="70%">
 
 ###frame assembly
 
@@ -69,7 +69,7 @@ and fix it using 8 x 12mm M3 bolts. It does not require to use nuts:
 
 <img src="media/frame_Assembly_2.jpg" width="70%">
 
-<img src="media/frame_Assembly_3.jpg" width="70%">
+<img src="media/frame_assembly_3.jpg" width="70%">
 
 Now is the turn of the motors. First be sure to pass the motor cable into the arm hole:
 
@@ -85,9 +85,9 @@ Plase adjust the position of the motor at the center before tighten the bolts:
 
 Finally put a little bit of glue on the 3D printed foots, and glue them fixing the in this way:
 
-<img src="media/foot_assembly_1.jpg" width="70%">
+<img src="media/foots_assembly_1.jpg" width="70%">
 
-<img src="media/foot_assembly_2.jpg" width="70%">
+<img src="media/foots_assembly_2.jpg" width="70%">
 
 ##making the electronics
 
