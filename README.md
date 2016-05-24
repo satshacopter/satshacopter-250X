@@ -36,7 +36,6 @@ And here you can che the required components in the **Bill of Material** table:
 |LiPo Charger and Balancer|800mah 3s LiPo charger|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=77525)|€6.99|-|
 |Fligh Controller|satshakit flight controller|various|[link](https://github.com/satshakit/satshakit-flight-controller)|€4.00-€8.00|depending on the quantity|
 |Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|[link](https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|€4.31|-|
-
 ||||**Total price**|89.19+4/8|-|
 
 NOTE: prices may change over time on the respective vendors, and also is dependand on the quantity of drones you want to make.
@@ -158,15 +157,56 @@ alt="http://img.youtube.com/vi/ZrNh0s9pX4o/0.jpg" width="240" height="180" borde
 
 Fix all the ESCs to the arms using plastic strips:
 
-<img src="media/connect_motor.jpg" width="70%">
+<img src="media/fix_escs.jpg" width="70%">
 
 Then connect the escs with the motor. It does not matter the order right now, so just connect them:
 
-<img src="media/fix_escs.jpg" width="70%">
+<img src="media/connect_motor.jpg" width="70%">
 
 Then you can also pass the wires inside the foots holes:
 
 <img src="media/connect_motor_foots.jpg" width="70%">
+
+Now is time to mount the board. You have to solder some female connectors on the **GY-521** IMU. This is likely how it will be connected, but without the frame:
+
+<img src="media/mount_board.jpg" width="70%">
+
+Put some double side scoth tape on the back of the board and fix to the under side of the main frame. Doing so you shuold have this setup:
+
+<img src="media/mounting_imu.jpg" width="70%">
+
+And on the top side the male connectors for the IMU:
+
+<img src="media/imu_location_ready.jpg" width="70%">
+
+Now put 4 layer of **double side thick scotch tape**:
+
+<img src="media/imu_soft.jpg" width="70%">
+
+just under the IMU:
+
+<img src="media/imu_location_ready.jpg" width="70%">
+
+Now you can plug the IMU. be sure that is in flat position and that doesn't touch the wood (adjust it with your fingers):
+
+<img src="media/imu_final_position.jpg" width="70%">
+
+Now is time to solder some wires that you don't want to be disconnected during flight. You have to solder the white signal cables of the ESCs, their power connectors and the power plug for the battery. Also make sure that the soldering are strong and solid, most important on the outer power board. The following image shows how and where to connect all, and also identifies the position of the motors:
+
+<img src="media/general_connections_board.png" width="70%">
+
+Next step is to connect the remote controller. You can connect this using normal jumpers connectors. Look at the following image to understand how to connect it. 
+
+- pink wire is **ROLL**
+- yellow wire is **PITCH**
+- orange wire is **THROTTLE**
+- blue wire is **YAW**
+
+<img src="media/recevier connections.png" width="70%">
+
+Connect a ground of one of the ESCs to a free ground (near the ground of the remote controller):
+
+<img src="media/gnd_esc.png" width="70%">
 
 
 
