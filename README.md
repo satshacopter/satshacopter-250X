@@ -168,6 +168,8 @@ Then you can also pass the wires inside the foots holes:
 
 <img src="media/connect_motor_foots.jpg" width="70%">
 
+
+
 ##configure MultiWii and do preliminar tests
 
 First connect the FTDI cable as following:
