@@ -169,11 +169,11 @@ Then you can also pass the wires inside the foots holes:
 
 Now is time to mount the board. You have to solder some female connectors on the **GY-521** IMU. This is likely how it will be connected, but without the frame:
 
-<img src="media/mount_board.jpg" width="70%">
+<img src="media/mounting_imu.jpg" width="70%">
 
 Put some double side scoth tape on the back of the board and fix to the under side of the main frame. Doing so you shuold have this setup:
 
-<img src="media/mounting_imu.jpg" width="70%">
+<img src="media/mount_board.jpg" width="70%">
 
 And on the top side the male connectors for the IMU:
 
@@ -181,17 +181,17 @@ And on the top side the male connectors for the IMU:
 
 Now put 4 layer of **double side thick scotch tape**:
 
-<img src="media/imu_soft.jpg" width="70%">
+<img src="media/tape.jpg" width="70%">
 
 just under the IMU:
 
-<img src="media/imu_location_ready.jpg" width="70%">
+<img src="media/imu_soft.jpg" width="70%">
 
-Now you can plug the IMU. be sure that is in flat position and that doesn't touch the wood (adjust it with your fingers):
+Now you can plug the IMU. be sure that is in **flat position and that doesn't touch the wood** (adjust it with your fingers):
 
 <img src="media/imu_final_position.jpg" width="70%">
 
-Now is time to solder some wires that you don't want to be disconnected during flight. You have to solder the white signal cables of the ESCs, their power connectors and the power plug for the battery. Also make sure that the soldering are strong and solid, most important on the outer power board. The following image shows how and where to connect all, and also identifies the position of the motors:
+Now is time to solder some wires that you don't want to be disconnected during flight. You have to solder the white signal cables of the ESCs, their power connectors and the XT60 power connector for the battery. Also make sure that the soldering are strong and solid, most important on the outer power board. The following image shows how and where to connect all, and also identifies the position of the motors:
 
 <img src="media/general_connections_board.png" width="70%">
 
@@ -201,34 +201,102 @@ Next step is to connect the remote controller. You can connect this using normal
 - yellow wire is **PITCH**
 - orange wire is **THROTTLE**
 - blue wire is **YAW**
+- white wire is **GND**
+- red wire is **5V**
 
 <img src="media/recevier connections.png" width="70%">
 
-Connect a ground of one of the ESCs to a free ground (near the ground of the remote controller):
+Connect a ground of one of the ESCs to a free ground of the board (near the ground of the remote controller):
 
 <img src="media/gnd_esc.png" width="70%">
 
+The last component to connect, this time again by soldering, is the voltage regulator:
 
+- black wire is **GND**
+- red wire is **VOUT 5V**
+- green wire is **VIN**, in this case 11.1V due to the 3S battery
 
-##configure MultiWii and do preliminar tests
+<img src="media/voltage_regulator.jpg" width="70%">
+
+##configure MultiWii and attach the supports
+
+Now is time to configure some Multiwii beofore going to flight.
 
 First connect the FTDI cable as following:
 
+- yellow wire is **RX**
+- orange wire is **TX**
+- black wire is **GND**
+
+And then connect into the following order:
+
+1. the usb FTDI cable to the PC
+2. put the throttle at the minimum and switch on your remote controller ([here](http://www.rcgroups.com/forums/showthread.php?t=1051701#post12275676) is the guide to bind it to the receiver)
+3. the battery to the board power XT60 connector
+
+Now you can open the MultiWii GUI you should find in the zip of the download. Once the GUI is open, do the following:
+
+1. select by clicking on the right **serial port button** and wait everything to became green
+2. click on the **START** button
+3. put the drone in a surface you think is really flat and hit the **CALIB_ACC** button
+4. click on **mid of AUX3** to always enable the **HORIZON MODE**
+5. press the **WRITE** button
+
+<img src="media/screen_multiwii_conf.png" width="70%">
+
+Be careful on the signal from the remote you have to **Check**. Look at the following image and move the sticks to check if they are binded in the right way on the interface:
+
+<img src="media/remote.png" width="70%">
+
+Eventually you reverse the channel on the remote:
+
+<img src="media/rev_positions.jpg" width="70%">
+
+If everything sounds to be ok, now you can attach the supports using the following screws and washers:
+
+<img src="media/support_screws.jpg" width="70%">
+
+Now you should be similar to this picture on the top side of the main frame:
+
+<img src="media/supports_screw_finished.jpg" width="70%">
+
+And finally you can fix the receiver, the voltage regulator and the battery to the supports:
+
+<img src="media/supports_screw_finished.jpg" width="70%">
+<img src="media/250X_5.jpg" width="70%">
+
 ##do a test flight
 
-Mount the propellers in the right position. Remember that looking at the following picture from MultiWii:
+Before to a test flight you have to check the rotation direction of the motors, and if it is not correct just change the connection of one of its wire with the ESC and check again after. Hold the motor with your hand and gently go up with the throttle so easy check the rotation direction. After some tries you should have the desidered rotation directions. This image shows the right rotation direction of each motor:
 
 <img src="media/QUADX_328.jpg" width="70%">
 
-the propellers must push down the air always.
+Now is time to mount the propellers. Remember that every propeller has to push the air down, according with the rotation direction. Here are pictures about the right propeller in each position (use the arrow to orient yourself):
 
-Place the drone in area without any risk of hitting someone, and stay away more than 5 meters from the drone.
+<img src="media/prop_direction_1.jpg" width="70%">
+<img src="media/prop_direction_2.jpg" width="70%">
+<img src="media/prop_direction_3.jpg" width="70%">
+<img src="media/prop_direction_4.jpg" width="70%">
 
-Arm the drone by putting the left stick in bottom left position for more than 5 seconds:
+Finallly the propellers should be like this:
 
-Try to spin a little the propellers.
+<img src="media/250X_0.jpg" width="70%">
 
-**Have good flights!**
+Finally put the propellers nuts, and tight them a little bit using a thin screwdriver:
+
+<img src="fix_propellers.jpg" width="70%">
+
+You are almost ready to flight. Place the drone in area without any risk of hitting someone, and stay away at least 5 meters from the drone.
+
+Arm the drone by putting the left stick in bottom right position for more than 5 seconds:
+
+<img src="media/arm.jpg" width="70%">
+
+To disarm stay with the left stick in the bottom right for more than 5 seconds:
+
+<img src="media/disarm.jpg" width="70%">
+
+Try to spin a little the propellers and, if everything seems to be ok...**have good flights!**
 
 Authors
 --
