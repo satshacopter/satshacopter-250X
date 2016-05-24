@@ -41,6 +41,42 @@ And here you can che the required components in the **Bill of Material** table:
 
 NOTE: prices may change over time on the respective vendors, and also is dependand on the quantity of drones you want to make.
 
+Downloads
+--
+
+- [satshakit flight controller eagle board](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/eagle_projects/satshakit_flight_controller/satshakit_fc_power.brd)
+- [satshakit flight controller eagle sch](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/eagle_projects/satshakit_flight_controller/satshakit_fc_power.sch)
+- [satshakit flight controller internal traces png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_internal.png)
+- [satshakit flight controller holes png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_holes.png)
+- [satshakit flight controller cut png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_cut.png)
+- [main frame and supports Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/main_frame_and_supports_8mm.3dm)
+- [main frame and supports dxf](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/main_frame_and_supports_8mm.dxf)
+- [upper frame and supports Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/upper_frame_4mm.3dm)
+- [upper frame and supports dxf](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/design_files/upper_frame_4mm.dxf)
+- [foot Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.3dm)
+- [foot stl](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.stl)
+- [satshacopter 250X BOM Excel](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250X_DOM.xlsx)
+- [satshacopter 250X BOM Open document](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250_BOM.ods)
+
+Media
+--
+
+Some images of a built satshacopter 250X
+
+<img src="media/250X_1.jpg" width="70%">
+<img src="media/250X_4.jpg" width="70%">
+<img src="media/250X_3.jpg" width="70%">
+<img src="media/250X_2.jpg" width="70%">
+<img src="media/250X_5.jpg" width="70%">
+<img src="media/250X_6.jpg" width="70%">
+<img src="media/250X_sky.jpg" width="70%">
+
+satshacopter 250X perfomance test:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=MrtPuotW08c
+" target="_blank"><img src="http://img.youtube.com/vi/MrtPuotW08c/0.jpg" 
+alt="http://img.youtube.com/vi/MrtPuotW08c/0.jpg" width="240" height="180" border="10" /></a>
+
 ##making step-by-step instructions
 
 Here you can about how to **build your own satshacopter 250X**.
@@ -65,7 +101,7 @@ First, detect wich side of the main frame must be up, you can do this by looking
 
 <img src="media/upside.jpg" width="70%">
 
-Then you put the upper frame on the main frame to obtain the location for the IMU as following:
+Then put the upper frame on the main frame to obtain the location for the IMU as following:
 
 <img src="media/frame_Assembly_1.jpg" width="70%">
 
@@ -122,7 +158,15 @@ alt="http://img.youtube.com/vi/ZrNh0s9pX4o/0.jpg" width="240" height="180" borde
 
 Fix all the ESCs to the arms using plastic strips:
 
+<img src="media/connect_motor.jpg" width="70%">
+
+Then connect the escs with the motor. It does not matter the order right now, so just connect them:
+
 <img src="media/fix_escs.jpg" width="70%">
+
+Then you can also pass the wires inside the foots holes:
+
+<img src="media/connect_motor_foots.jpg" width="70%">
 
 ##configure MultiWii and do preliminar tests
 
@@ -144,40 +188,37 @@ Try to spin a little the propellers.
 
 **Have good flights!**
 
-Downloads
+Authors
 --
 
-- [satshakit flight controller eagle board](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/eagle_projects/satshakit_flight_controller/satshakit_fc_power.brd)
-- [satshakit flight controller eagle sch](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/eagle_projects/satshakit_flight_controller/satshakit_fc_power.sch)
-- [satshakit flight controller internal traces png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_internal.png)
-- [satshakit flight controller holes png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_holes.png)
-- [satshakit flight controller cut png](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/media/satshakit_fc_power_cut.png)
-- [main frame and supports Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/main_frame_and_supports_8mm.3dm)
-- [main frame and supports dxf](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/main_frame_and_supports_8mm.dxf)
-- [upper frame and supports Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/upper_frame_4mm.3dm)
-- [upper frame and supports dxf](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/design_files/upper_frame_4mm.dxf)
-- [foot Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.3dm)
-- [foot stl](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.stl)
-- [satshacopter 250X BOM Excel](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250X_DOM.xlsx)
-- [satshacopter 250X BOM Open document](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250_BOM.ods)
+- Daniele Ingrassia
 
-Media
+
+Contact
 --
 
-Some images of a built satshacopter 250X
+- **ingrassiada@gmail.com**
+- **[linkedin](http://it.linkedin.com/in/danieleingrassia)**
 
-<img src="media/250X_1.jpg" width="70%">
-<img src="media/250X_4.jpg" width="70%">
-<img src="media/250X_3.jpg" width="70%">
-<img src="media/250X_2.jpg" width="70%">
-<img src="media/250X_5.jpg" width="70%">
-<img src="media/250X_6.jpg" width="70%">
-<img src="media/250X_sky.jpg" width="70%">
+Thanks
+--
 
-satshacopter 250X perfomance test:
+[Fablab Kamp-Lintfort](http://fablab.hochschule-rhein-waal.de/index.php/de/)<br />
+Hochschule Rhein-Waal<br />
+Friedrich-Heinrich-Allee 25, 47475 Kamp-Lintfort, Germany<br />
+fablab@hochschule-rhein-waal.de
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=MrtPuotW08c
-" target="_blank"><img src="http://img.youtube.com/vi/MrtPuotW08c/0.jpg" 
-alt="http://img.youtube.com/vi/MrtPuotW08c/0.jpg" width="240" height="180" border="10" /></a>
+
+License
+--
+
+This work is licensed under the terms of Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+Disclaimer  
+--
+
+<div class="align-justify">
+This hardware/software is provided "as is", and you use the hardware/software at your own risk. Under no circumstances shall any author be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this hardware/software, even if the authors have been advised of the possibility of such damages.</div>
+
 
 
