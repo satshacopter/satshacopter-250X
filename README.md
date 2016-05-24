@@ -7,7 +7,7 @@
 satshacopter 250X
 --
 
-satshacopter 250X is a quadcopter built around the **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**. It is designed to be as  simple and cheap as much as possible, and to be easily made inside any Fab Lab.
+satshacopter 250X is a quadcopter built around the **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**. It is designed to be simple and cheap as much as possible, and to be easily made inside any Fab Lab.
 
 250X specifications:
 
@@ -36,6 +36,10 @@ And here you can che the required components in the **Bill of Material** table:
 |LiPo Charger and Balancer|800mah 3s LiPo charger|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=77525)|€6.99|-|
 |Fligh Controller|satshakit flight controller|various|[link](https://github.com/satshakit/satshakit-flight-controller)|€4.00-€8.00|depending on the quantity|
 |Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|[link](https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|€4.31|-|
+
+||||**Total price**|89.19+4/8|-|
+
+NOTE: prices may change over time on the respective vendors, and also is dependand on the quantity of drones you want to make.
 
 ##making step-by-step instructions
 
@@ -120,7 +124,7 @@ Fix all the ESCs to the arms using plastic strips:
 
 <img src="media/fix_escs.jpg" width="70%">
 
-##configure MultiWii and do preliminar tests**
+##configure MultiWii and do preliminar tests
 
 First connect the FTDI cable as following:
 
