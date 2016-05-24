@@ -7,19 +7,19 @@
 satshacopter 250X
 --
 
-satshacopter 250X is a quadcopter built around the **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**. It is designed to be simple and cheap as much as possible, and to be easily made inside any Fab Lab.
+satshacopter 250X is a quadcopter built around the **[satshakit flight controller](https://github.com/satshakit/satshakit-flight-controller)**. It is designed to be **simple and cheap as much as possible**, and to be easily made inside any **Fab Lab**.
 
 250X specifications:
 
-- 250mm wooden frame and supports
-- open source flight controller
-- MPU6050 IMU located exactly at the center
-- 4 x 1900kv brushless motors
-- 4 x 15A ESCs
-- MultiWii compatible
-- 4 channel Hobby King remote and receiver
-- 1000mah 3S LiPo battery 
-- costs under 100€
+- **250mm wood frame** and supports
+- **open source flight controller**
+- **MPU6050 IMU** located exactly at the center
+- 4 x 1900kv **brushless motors**
+- 4 x 15A **ESCs**
+- **MultiWii** compatible
+- Hobby King 4 channel **remote and receiver**
+- 1000mah 3S **LiPo battery** 
+- costs under **100€**
 
 Here you can look about the **MultiWii pin mapping** of the satshakit flight controller board:
 
@@ -29,16 +29,16 @@ And here you can che the required components in the **Bill of Material** table:
 
 |name|description|vendor|link|price|notes|
 |:---:| :---:|:---:|:---:|:---:|:---:|
-|2.4Ghz4Ch TxRx V2|4ch mode 2 remote control and receiver|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/__66499__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_2_EU_Warehouse_.html)|€23.14|-|
-|Zippy Compact|battery 1000mah 3s|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/__36064__ZIPPY_Compact_1000mAh_3S_25C_Lipo_Pack_EU_Warehouse_.html)|€5.55|-|
-|LDPOWER D250-2 Multicopter Power System|4 x 2206-1900kv motors and 4 x 15A esc|Hobby King EU|[link](http://www.hobbyking.com/hobbyking/store/__84723__LDPOWER_D250_2_Multicopter_Power_System_2206_1900kv_6_x_3_4_Pack_EU_Warehouse_.html)|€43.81|propellers Included|
-|IMU 6DOF|MPU6050 Gyro + Acc IMU|Ebay|[link](http://www.ebay.de/itm/MPU-6050-GY-521-3-Achsen-Gyroskop-Accelerometer-Kreisel-Board-Sensor-Arduino-21-/121887579651)|€5.39|-|
-|LiPo Charger and Balancer|800mah 3s LiPo charger|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=77525)|€6.99|-|
-|Fligh Controller|satshakit flight controller|various|[link](https://github.com/satshakit/satshakit-flight-controller)|€4.00-€8.00|depending on the quantity|
-|Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|[link](https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|€4.31|-|
-||||**Total price**|89.19+4/8|-|
+|2.4Ghz4Ch TxRx V2|4ch mode 2 remote control and receiver|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/__66499__Hobby_King_2_4Ghz_4Ch_Tx_Rx_V2_Mode_2_EU_Warehouse_.html)|23.14€|-|
+|Zippy Compact|battery 1000mah 3s|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/__36064__ZIPPY_Compact_1000mAh_3S_25C_Lipo_Pack_EU_Warehouse_.html)|5.55€|-|
+|LDPOWER D250-2 Multicopter Power System|4 x 2206-1900kv motors and 4 x 15A ESC|Hobby King EU|[link](http://www.hobbyking.com/hobbyking/store/__84723__LDPOWER_D250_2_Multicopter_Power_System_2206_1900kv_6_x_3_4_Pack_EU_Warehouse_.html)|43.81€|propellers Included|
+|IMU 6DOF|MPU6050 Gyro + Acc IMU|Ebay|[link](http://www.ebay.de/itm/MPU-6050-GY-521-3-Achsen-Gyroskop-Accelerometer-Kreisel-Board-Sensor-Arduino-21-/121887579651)|5.39€|-|
+|LiPo Charger and Balancer|800mah 3s LiPo charger|Hobby King|[link](http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=77525)|6.99€|-|
+|Fligh Controller|satshakit flight controller|various|[link](https://github.com/satshakit/satshakit-flight-controller)|4.00-8.00€|depending on the quantity|
+|Voltage regulator|Pololu step up step down 5V S7V7F5|E-shop|[link](https://www.flikto.de/products/pololu-5v-step-up-step-down-voltage-regulator-s7vf5)|4.31€|-|
+||||**Total price**|89.19€+4/8€|-|
 
-NOTE: prices may change over time on the respective vendors, and also is dependand on the quantity of drones you want to make.
+NOTE: prices may change over time on the respective vendors, and also it is highly dependand on the quantity of drones you want to make.
 
 Downloads
 --
@@ -86,11 +86,11 @@ The main frame and the supports are made of 8mm plywood. You can easily cut thes
 
 <img src="media/main_frame_and_supports.jpg" width="70%">
 
-The upper frame is from 4mm, also for this pretty easy cut you can use the laser cutter:
+The upper frame is from 4mm plywood, also this is pretty easy cut you can use the laser cutter:
 
 <img src="media/upper_frame.jpg" width="70%">
 
-Foots are pretty simple 3D printed objects, is recommended to use PLA an 25% of fill:
+Foots are pretty simple 3D printed objects, is recommended to use PLA and 25% of fill:
 
 <img src="media/foot.jpg" width="70%">
 
@@ -171,7 +171,7 @@ Now is time to mount the board. You have to solder some female connectors on the
 
 <img src="media/mounting_imu.jpg" width="70%">
 
-Put some double side scoth tape on the back of the board and fix to the under side of the main frame. Doing so you shuold have this setup:
+Put some double side scotch tape on the back of the board and fix it to the under side of the main frame. Doing so you should have this setup:
 
 <img src="media/mount_board.jpg" width="70%">
 
@@ -206,7 +206,7 @@ Next step is to connect the remote controller. You can connect this using normal
 
 <img src="media/recevier connections.png" width="70%">
 
-Connect a ground of one of the ESCs to a free ground of the board (near the ground of the remote controller):
+Connect to ground of one of the ESCs to a free ground of the board (near the ground of the remote controller):
 
 <img src="media/gnd_esc.png" width="70%">
 
@@ -220,7 +220,7 @@ The last component to connect, this time again by soldering, is the voltage regu
 
 ##configure MultiWii and attach the supports
 
-Now is time to configure some Multiwii beofore going to flight.
+Now is time to configure some Multiwii before going to flight.
 
 First connect the FTDI cable as following:
 
@@ -228,11 +228,11 @@ First connect the FTDI cable as following:
 - orange wire is **TX**
 - black wire is **GND**
 
-And then connect into the following order:
+And then do these steps following the order:
 
-1. the usb FTDI cable to the PC
+1. connect the usb FTDI cable to the PC
 2. put the throttle at the minimum and switch on your remote controller ([here](http://www.rcgroups.com/forums/showthread.php?t=1051701#post12275676) is the guide to bind it to the receiver)
-3. the battery to the board power XT60 connector
+3. connect the battery to the board power XT60 connector
 
 Now you can open the MultiWii GUI you should find in the zip of the download. Once the GUI is open, do the following:
 
@@ -248,13 +248,20 @@ Be careful on the signal from the remote you have to **Check**. Look at the foll
 
 <img src="media/remote.png" width="70%">
 
-Eventually you reverse the channel on the remote:
+Eventually you can reverse the channel on the remote to achieve the right movements of the signals on the interface:
 
 <img src="media/rev_positions.jpg" width="70%">
 
+And adjust the values of the PWM signals using trimmers on the remote. The values should be like:
+
+- 1500 Pitch, Roll, Yaw
+- 1080 Throttle
+
+<img src="media/trims.jpg" width="70%">
+
 If everything sounds to be ok, now you can attach the supports using the following screws and washers:
 
-<img src="media/support_screws.jpg" width="70%">
+<img src="media/supports_screws.jpg" width="70%">
 
 Now you should be similar to this picture on the top side of the main frame:
 
@@ -262,16 +269,16 @@ Now you should be similar to this picture on the top side of the main frame:
 
 And finally you can fix the receiver, the voltage regulator and the battery to the supports:
 
-<img src="media/supports_screw_finished.jpg" width="70%">
+<img src="media/fix_battery.jpg" width="70%">
 <img src="media/250X_5.jpg" width="70%">
 
 ##do a test flight
 
-Before to a test flight you have to check the rotation direction of the motors, and if it is not correct just change the connection of one of its wire with the ESC and check again after. Hold the motor with your hand and gently go up with the throttle so easy check the rotation direction. After some tries you should have the desidered rotation directions. This image shows the right rotation direction of each motor:
+Before do a test flight you have to check the rotation direction of the motors, and if it is not correct just change the connection of one of its wire with the ESC and check again after. Hold the motor with your hand and gently go up with the throttle to easy check the rotation direction. After some tries you should have the desidered rotation directions. This image shows the right rotation direction of each motor:
 
 <img src="media/QUADX_328.jpg" width="70%">
 
-Now is time to mount the propellers. Remember that every propeller has to push the air down, according with the rotation direction. Here are pictures about the right propeller in each position (use the arrow to orient yourself):
+Now is time to mount the propellers. Remember that every propeller has to push the air down according with the rotation direction. Here are pictures about the right propeller in each position (use the arrow to orient yourself):
 
 <img src="media/prop_direction_1.jpg" width="70%">
 <img src="media/prop_direction_2.jpg" width="70%">
@@ -286,7 +293,8 @@ Finally put the propellers nuts, and tight them a little bit using a thin screwd
 
 <img src="fix_propellers.jpg" width="70%">
 
-You are almost ready to flight. Place the drone in area without any risk of hitting someone, and stay away at least 5 meters from the drone.
+You are almost ready to flight. 
+Place the drone in **area without any risk of hitting someone**, and stay away at least 5 meters from the drone.
 
 Arm the drone by putting the left stick in bottom right position for more than 5 seconds:
 
