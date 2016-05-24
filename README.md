@@ -54,8 +54,8 @@ Downloads
 - [upper frame and supports dxf](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/design_files/upper_frame_4mm.dxf)
 - [foot Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.3dm)
 - [foot stl](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.stl)
-- [satshacopter 250X BOM Excel](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250X_DOM.xlsx)
-- [satshacopter 250X BOM Open document](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250_BOM.ods)
+- [satshacopter 250X detailed BOM Excel](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250X_DOM.xlsx)
+- [satshacopter 250X detailed BOM Open document](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250_BOM.ods)
 
 Media
 --
@@ -86,7 +86,7 @@ The main frame and the supports are made of 8mm plywood. You can easily cut thes
 
 <img src="media/main_frame_and_supports.jpg" width="70%">
 
-The upper frame is from 4mm plywood, also this is pretty easy cut you can use the laser cutter:
+The upper frame is from 4mm plywood, also this is a pretty easy cut you do can by using again the laser cutter:
 
 <img src="media/upper_frame.jpg" width="70%">
 
@@ -110,11 +110,11 @@ and fix it using 8 x 12mm M3 bolts. It does not require to use nuts:
 
 <img src="media/frame_assembly_3.jpg" width="70%">
 
-Now is the turn of the motors. First be sure to pass the motor cable into the arm hole:
+Now is the turn of the motors. First be sure to pass the motor cable into the arm hole. This will give you also the right position for CW and CCW motors, as the wires must be in the right direction:
 
 <img src="media/motor_assembly_1.jpg" width="70%">
 
-You can use 2 x M3 10mm bolt each, to fix them on the arms:
+You can use 2 x M3 10mm bolt for each, to fix them on the arms:
 
 <img src="media/motor_assembly_2.jpg" width="70%">
 
@@ -179,19 +179,19 @@ And on the top side the male connectors for the IMU:
 
 <img src="media/imu_location_ready.jpg" width="70%">
 
-Now put 4 layer of **double side thick scotch tape**:
+Now put 4 layers of **double side thick scotch tape**:
 
 <img src="media/tape.jpg" width="70%">
 
-just under the IMU:
+under the IMU:
 
 <img src="media/imu_soft.jpg" width="70%">
 
-Now you can plug the IMU. be sure that is in **flat position and that doesn't touch the wood** (adjust it with your fingers):
+Now you can plug the IMU. Be sure that is in **flat position and that doesn't touch the wood** (adjust it with your fingers):
 
 <img src="media/imu_final_position.jpg" width="70%">
 
-Now is time to solder some wires that you don't want to be disconnected during flight. You have to solder the white signal cables of the ESCs, their power connectors and the XT60 power connector for the battery. Also make sure that the soldering are strong and solid, most important on the outer power board. The following image shows how and where to connect all, and also identifies the position of the motors:
+Now is time to solder some wires that you don't want to be disconnected during flight. You have to solder the white signal cables of the ESCs, their power connectors and the XT60 power connector for the battery. Also make sure that the solderings are strong and solid, most important on the outer power board. The following image shows how and where to connect all, and also identifies the position of the motors:
 
 <img src="media/general_connections_board.png" width="70%">
 
@@ -220,7 +220,7 @@ The last component to connect, this time again by soldering, is the voltage regu
 
 ##configure MultiWii and attach the supports
 
-Now is time to configure some Multiwii before going to flight.
+Now is time to configure some Multiwii parameters before going to flight.
 
 First connect the FTDI cable as following:
 
@@ -254,8 +254,8 @@ Eventually you can reverse the channel on the remote to achieve the right moveme
 
 And adjust the values of the PWM signals using trimmers on the remote. The values should be like:
 
-- 1500 Pitch, Roll, Yaw
-- 1080 Throttle
+- **1500** Pitch, Roll, Yaw
+- **1080** Throttle
 
 <img src="media/trims.jpg" width="70%">
 
@@ -285,13 +285,13 @@ Now is time to mount the propellers. Remember that every propeller has to push t
 <img src="media/prop_direction_3.jpg" width="70%">
 <img src="media/prop_direction_4.jpg" width="70%">
 
-Finallly the propellers should be like this:
+At the and the propellers should be like this:
 
 <img src="media/250X_0.jpg" width="70%">
 
 Finally put the propellers nuts, and tight them a little bit using a thin screwdriver:
 
-<img src="fix_propellers.jpg" width="70%">
+<img src="media/fix_propellers.jpg" width="70%">
 
 You are almost ready to flight. 
 Place the drone in **area without any risk of hitting someone**, and stay away at least 5 meters from the drone.
@@ -300,7 +300,7 @@ Arm the drone by putting the left stick in bottom right position for more than 5
 
 <img src="media/arm.jpg" width="70%">
 
-To disarm stay with the left stick in the bottom right for more than 5 seconds:
+To disarm stay with the left stick in the bottom left for more than 5 seconds:
 
 <img src="media/disarm.jpg" width="70%">
 
