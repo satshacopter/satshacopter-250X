@@ -264,7 +264,10 @@ And adjust the values of the PWM signals using trimmers on the remote. The value
 <img src="media/trims.jpg" width="70%">
 
 If everything sounds to be ok, now you can attach the supports using the following screws and washers:
+
 <img src="media/supports_screw.jpg" width="70%">
+
+And use the washer to fix the supports with the surface of the main frame: 
 
 <img src="media/supports_screws.jpg" width="70%">
 
