@@ -167,6 +167,10 @@ Then you can also pass the wires inside the foots holes:
 
 <img src="media/connect_motor_foots.jpg" width="70%">
 
+And close everithing with scotch tape to avoid the wires making unwanted vibrations:
+
+<img src="media/scotch_tape_motors.jpg" width="70%">
+
 Now is time to mount the board. You have to solder some female connectors on the **GY-521** IMU. This is likely how it will be connected, but without the frame:
 
 <img src="media/mounting_imu.jpg" width="70%">
@@ -260,6 +264,7 @@ And adjust the values of the PWM signals using trimmers on the remote. The value
 <img src="media/trims.jpg" width="70%">
 
 If everything sounds to be ok, now you can attach the supports using the following screws and washers:
+<img src="media/supports_screw.jpg" width="70%">
 
 <img src="media/supports_screws.jpg" width="70%">
 
