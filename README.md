@@ -60,7 +60,7 @@ Following you can find all the **design files** you need to make it:
 - [upper frame and supports dxf](https://raw.githubusercontent.com/satshacopter/satshacopter-250X/master/design_files/upper_frame_4mm.dxf)
 - [foot Rhino](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.3dm)
 - [foot stl](https://github.com/satshacopter/satshacopter-250X/raw/master/design_files/foot.stl)
-- [satshacopter 250X detailed BOM Excel](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250X_DOM.xlsx)
+- [satshacopter 250X detailed BOM Excel](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250X_BOM.xlsx)
 - [satshacopter 250X detailed BOM Open document](https://github.com/satshacopter/satshacopter-250X/raw/master/docs/250X/250_BOM.ods)
 
 Media
