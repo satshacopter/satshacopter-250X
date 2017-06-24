@@ -82,6 +82,29 @@ satshacopter 250X perfomance test:
 " target="_blank"><img src="http://img.youtube.com/vi/MrtPuotW08c/0.jpg" 
 alt="http://img.youtube.com/vi/MrtPuotW08c/0.jpg" width="240" height="180" border="10" /></a>
 
+Safety
+--
+
+Please try always to fly safe.
+
+Here are my personal safety recommendations, especially for experimental drones of which you are not sure on how they can behave:
+
+- make sure to always keep an HUGE distance between you and the drone
+- always place yourself on the back of the drone before starting flying
+- always have the direct sight to the drone and make sure that its orientation is clear for you (use different colors or LEDs)
+- fly in private areas where no public can access
+- make sure that nobody can come near the drone while you are flying
+- make sure that you cannot destroy anything that you have around you with the drone
+- check the wind and the weather before flying, if outdoor
+- never go too high (no more than 1/2 meters in these cases)
+- do not fly on top of someone (neither yourself)
+- first try to fly few cm above the ground to see if everything is correct
+- try to avoid using carbon fiber props (they are really like rotating knifes) but use plastic props
+- try to use smaller drones with smaller props for really experimental tests
+- triple check all the screws and that the frame is not cracked somewhere
+- triple check all the DIY electronics, if it fails in-flight can be extremely dangerous
+- make sure that the batteries are full charged (both transmitter and the LiPos)
+
 Authors
 --
 
